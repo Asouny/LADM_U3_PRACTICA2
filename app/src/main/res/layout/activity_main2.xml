@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Agenda de eventos, Actualiza los valores requeridos."
+      android:ems="10"
+      />
+
+  <EditText
+      android:id="@+id/lugarEvent"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:hint="Lugar del evento"/>
+
+  <EditText
+      android:id="@+id/horaEvent"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:hint="Hora del evento" />
+
+  <EditText
+      android:id="@+id/fechaEvent"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="date"
+      android:ems="10"
+      android:hint="Fecha del evento" />
+
+  <EditText
+      android:id="@+id/descripEvent"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:hint="Descripcion del evento" />
+
+  <Button
+      android:id="@+id/updateEvent"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Guardar cambios" />
+
+  <Button
+      android:id="@+id/deleteEvent"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Eliminar Registro" />
+
+
+
+
+
+</LinearLayout>
